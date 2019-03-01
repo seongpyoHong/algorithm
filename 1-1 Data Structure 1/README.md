@@ -1,47 +1,22 @@
-Algorithm Study
-===============
-#### This repository is made to upload the codes of algorithm_study.
+1-1 Data Structure 
+==================
 
+Problem
+-------
 ***
+#### 스택 : <https://www.acmicpc.net/problem/10828>
+#### 괄호 : <https://www.acmicpc.net/problem/9012>
+#### 쇠막대기 : <https://www.acmicpc.net/problem/10799>
+#### 에디터 : <https://www.acmicpc.net/problem/1406>
+#### 큐 : <https://www.acmicpc.net/problem/10845>
+#### 조세퍼스 문제 : <https://www.acmicpc.net/problem/1158>
+#### 알파벳 개수 : <https://www.acmicpc.net/problem/10808>
+#### 알파벳 찾기 : <https://www.acmicpc.net/problem/10809>
+#### 문자열 분석 : <https://www.acmicpc.net/problem/10820>
+#### 네 수 : <https://www.acmicpc.net/problem/10824>
 
-## Problem Source 
-<https://www.acmicpc.net/>
-
+Note
+----
 ***
-
-## Advice to Study
-<https://baactree.tistory.com/14>
-
-<https://baactree.tistory.com/52>
-
-<https://edykim.com/ko/post/advice-on-learning-algorithms/>
-
-***
-
-## Category
-
-### 1. Algorithm-Basic
-* Data Structure 1
-* DP(Dynamic Programming) 1
-* Math 1
-* Sorting
-* Tree 1
-
-### 2. Algorithm-Intermediate (1/2)
-* Greedy Algorithm
-* Divide and Conquer Algorithm
-* Binary Search
-* Brute Force Search 1
-* Brute Force Search 2
-* Data Structure 2
-* Graph 1
-
-### 3. Algorithm-Intermediate (2/2)
-* DP(Dynamic Programming) 2
-* Math 2
-* Graph 2
-* Tree 2
-* Brute Force Search 3
-* Finding minimum in section
-* Finding total value in section
-
+#### C++ STL 
+<https://baactree.tistory.com/29>
