@@ -1,29 +1,37 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-public class Main {
-	static Scanner sc = new Scanner(System.in);
+public class Solution10163 {
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static int[][] map = new int[101][101];
-	public static void main(String[] args) {
-		int N = sc.nextInt();
+	
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		int N = Integer.parseInt(br.readLine());
 		for (int i = 0; i < N; i++) {
-			fillMap(sc.nextInt(), sc.nextInt());
+			String[] line = br.readLine().split(" ");
+			int x = Integer.parseInt(line[0]);
+			int y = Integer.parseInt(line[1]);
+			int width = Integer.parseInt(line[2]);
+			int height = Integer.parseInt(line[3]);
+
+			for (int j = x; j < x + width; j++) {
+				for (int k = y; k < y + height; k++) {
+					map[j][k] = i + 1;
+				}
+			}
+		}
+
+		int[] ret = new int[N];
+		for (int i = 0; i < 101; i++) {
+			for (int j = 0; j < 101; j++) {
+				if (map[i][j] == 0) continue;
+				ret[map[i][j] - 1] += 1;
+			}
 		}
 		
-		int cnt = 0;
-		for (int i = 1; i < 101; i++) {
-			for (int j = 1; j < 101; j++) {
-				if (map[i][j] == 0) continue;
-				cnt++;
-			}
-		}
-		System.out.println(cnt);
-	}
-	
-	static void fillMap(int x, int y) {
-		for (int i = x; i < x + 10; i++) {
-			for (int j = y; j < y + 10; j++) {
-				map[i][j] = 1;
-			}
+		for (int i = 0; i < ret.length; i++) {
+			System.out.println(ret[i]);
 		}
 	}
 }
