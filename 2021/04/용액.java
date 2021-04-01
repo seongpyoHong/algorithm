@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//투 포인터
 public class Solution2467 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
