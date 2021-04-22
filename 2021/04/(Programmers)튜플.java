@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 
+// 자료구조
 public class SolutionKakao1 {
 
     public static void main(String[] args) {
